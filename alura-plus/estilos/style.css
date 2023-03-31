@@ -26,18 +26,18 @@ body {
     font-weight: 400;
 }
 
-.principal {
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__principal {
     background-image: url("../assets/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     text-align: center;
-}
-
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
 }
 
 .container__caixa {
@@ -72,4 +72,33 @@ body {
 .container__aviso {
     font-size: .75rem;
     color: var(--cor-secundaria);
+}
+
+.container__secundario {
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.container__secundario__imagem {
+    width: 65%;
+}
+
+.container__descricao {
+    padding: 2rem;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--cor-primaria);
+    margin-bottom: .3rem;
+}
+
+.descricao__texto {
+    color: var(--cor-secundaria);
+}
+
+.botao__terciario {
+    display: inline-block;
+    margin-top: 1rem;
 }
