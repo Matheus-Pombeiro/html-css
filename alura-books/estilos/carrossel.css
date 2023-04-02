@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.corrossel {
+
+}
+
+.carrossel__titulo {
+    background-color: var(--cor-de-fundo-destaque);
+    color: var(--cor-titulo-destaque);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1rem 0 .5rem 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    margin: .5rem 0;
+    position: initial;
+}

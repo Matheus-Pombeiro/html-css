@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .cabecalho {
-    background-color: var(--cor-de-fundo-cabecalho);
+    background-color: var(--cor-de-fundo-destaque);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,11 +39,11 @@
 
 .lista-menu__titulo, .lista-menu__item {
     padding: 1rem;
-    background-color: var(--cor-de-fundo-cabecalho);
+    background-color: var(--cor-de-fundo-destaque);
 }
 
 .lista-menu__titulo {
-    color: var(--cor-titulo-cabecalho);
+    color: var(--cor-titulo-destaque);
     font-weight: 700;
 }
 
