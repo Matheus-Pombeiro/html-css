@@ -5,6 +5,9 @@
 :root {
     --cor-de-fundo: #ebecee;
     --cor-de-fundo-cabecalho: #ffffff;
+    --cor-titulo-cabecalho: #eb9800;
+    --degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    
 }
 
 body {
