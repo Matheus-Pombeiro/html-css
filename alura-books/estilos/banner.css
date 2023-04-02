@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.banner {
+    background: var(--degrade);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 2.5rem 2rem;
+}
+
+.banner__titulo {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.banner__texto {
+    margin: 1rem 0;
+    font-weight: 500;
+}

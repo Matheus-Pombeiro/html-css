@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
+/*Folhas de Estilo Importadas*/
 @import url("header.css");
+@import url("banner.css");
 
+/*Fontes Importadas*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
@@ -10,6 +13,7 @@
     --cor-de-fundo-cabecalho: #ffffff;
     --cor-titulo-cabecalho: #eb9800;
     --degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --cor-branco: #ffffff;
 
     /*Fonts*/
     --fonte-primaria: 'Poppins', Arial, Helvetica, sans-serif;
