@@ -12,6 +12,7 @@
 .card__container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: .5rem;
 }
 
 .card__descricao {
@@ -20,14 +21,18 @@
 
 .card__descricao__titulo {
     color: var(--cor-titulo-destaque);
+    font-weight: 700;
 }
 
 .card__descricao__titulo-livro {
-
+    color: var(--cor-titulo-destaque-secundaria);
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: .5rem 0;
 }
 
 .card__descricao__texto {
-
+    font-size: .875rem;
 }
 
 .card__descricao__imagem {
@@ -44,5 +49,13 @@
 }
 
 .card__botoes__lista__item {
+    
+}
 
+.card__botoes__ancora {
+    background-color: var(--cor-titulo-destaque);
+    padding: 1rem 2.21rem;
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-weight: 700;
 }
