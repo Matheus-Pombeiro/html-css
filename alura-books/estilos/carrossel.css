@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-.corrossel {
-
-}
-
 .carrossel__titulo {
     background-color: var(--cor-de-fundo-destaque);
     color: var(--cor-titulo-destaque);

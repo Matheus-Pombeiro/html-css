@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.card {
+    background-color: var(--cor-de-fundo-destaque);
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.25);
+    border-radius: .625rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: var(--fonte-primaria)
+}
+
+.card__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__descricao {
+    
+}
+
+.card__descricao__titulo {
+    color: var(--cor-titulo-destaque);
+}
+
+.card__descricao__titulo-livro {
+
+}
+
+.card__descricao__texto {
+
+}
+
+.card__descricao__imagem {
+
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__botoes__lista {
+    display: flex;
+}
+
+.card__botoes__lista__item {
+
+}
