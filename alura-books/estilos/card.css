@@ -15,10 +15,6 @@
     margin-bottom: .5rem;
 }
 
-.card__descricao {
-    
-}
-
 .card__descricao__estrelas {
     margin: .5rem 0;
     color: var(--cor-titulo-destaque);
@@ -42,10 +38,6 @@
     margin-right: .5rem;
 }
 
-.card__descricao__imagem {
-
-}
-
 .card__botoes {
     display: flex;
     justify-content: space-between;
@@ -60,15 +52,10 @@
     display: flex;
 }
 
-.card__botoes__lista__item {
-    
-}
-
 .card__botoes__ancora {
     background-color: var(--cor-titulo-destaque);
     padding: 1rem 2.21rem;
     text-decoration: none;
     color: var(--cor-branco);
     font-weight: 700;
-    
 }
