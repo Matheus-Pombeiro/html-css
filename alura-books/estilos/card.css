@@ -19,6 +19,11 @@
     
 }
 
+.card__descricao__estrelas {
+    margin: .5rem 0;
+    color: var(--cor-titulo-destaque);
+}
+
 .card__descricao__titulo {
     color: var(--cor-titulo-destaque);
     font-weight: 700;
@@ -29,10 +34,12 @@
     font-size: 1.125rem;
     font-weight: 700;
     margin: .5rem 0;
+    margin-right: .5rem;
 }
 
 .card__descricao__texto {
     font-size: .875rem;
+    margin-right: .5rem;
 }
 
 .card__descricao__imagem {
@@ -42,6 +49,11 @@
 .card__botoes {
     display: flex;
     justify-content: space-between;
+}
+
+.card__botoes__escritora {
+    display: flex;
+    justify-content: end;
 }
 
 .card__botoes__lista {
@@ -58,4 +70,5 @@
     text-decoration: none;
     color: var(--cor-branco);
     font-weight: 700;
+    
 }
