@@ -30,3 +30,20 @@ body {
     font-size: 1rem;
     font-weight: 400;
 }
+
+.rodape {
+    padding-top: 1rem;
+    background-color: var(--cor-de-fundo-destaque);
+}
+
+.rodape__hr {
+    margin: 0;
+}
+
+.rodape__texto {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    text-align: center;
+}

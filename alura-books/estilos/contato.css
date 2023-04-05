@@ -25,15 +25,18 @@
 }
 
 .contato__cadastro {
-    padding: .7rem;
+    width: 90%;
+    padding: 1rem;
     background-color: transparent;
     border: 1px solid var(--cor-titulo-destaque-secundaria);
     border-radius: 1.65rem;
+    color: var(--cor-titulo-destaque-secundaria);
 }
 
 .contato__cadastro::placeholder {
+    padding-left: 2.9rem;
     color: var(--cor-titulo-destaque-secundaria);
-    font-size: .75rem;
+    font-size: .875rem;
     font-weight: 300;
     font-family: var(--font-primaria);
     background: url("../assets/Email.svg") no-repeat;
