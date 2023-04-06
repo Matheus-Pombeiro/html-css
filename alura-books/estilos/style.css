@@ -11,6 +11,7 @@
 
 /*Fontes Importadas*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 :root {
     /*Cores*/
@@ -23,6 +24,7 @@
 
     /*Fonts*/
     --fonte-primaria: 'Poppins', Arial, Helvetica, sans-serif;
+    --fonte-secundaria: 'Josefin Sans', Arial, Helvetica, sans-serif;
 }
 
 body {
