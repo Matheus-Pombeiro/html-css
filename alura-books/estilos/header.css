@@ -67,6 +67,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .cabecalho__menu-hamburguer {
         display: none;
@@ -114,5 +118,26 @@
 
     .opcoes__botao {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cabecalho {
+        padding: 0 25px;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .container__texto {
+        display: block;
     }
 }
