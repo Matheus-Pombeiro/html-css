@@ -43,3 +43,24 @@
     background-position: 1rem;
     background-position-y: -.33rem;
 }
+
+@media screen and (min-width: 768px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__container {
+        width: 30%;
+        margin-right: 1rem;
+    }
+
+    .contato__titulo {
+        font-size: 22px;
+    }
+
+    .contato__cadastro {
+        width: 35%;
+    }
+}
