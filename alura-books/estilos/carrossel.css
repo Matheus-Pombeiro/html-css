@@ -35,11 +35,6 @@
     .swiper {
         width: 60%;
     }
-
-    .swiper-button-prev, .swiper-button-next {
-        display: block;
-        top: 60%;
-    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -53,5 +48,10 @@
 
     .swiper {
         width: 60%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
     }
 }
