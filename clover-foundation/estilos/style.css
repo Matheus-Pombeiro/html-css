@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Estilos */
+
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+:root {
+
+    /* Cores */
+
+    --background: #d1e3dd;
+    --cor-destaque: #3f826d;
+
+
+    /* Fontes */
+
+    --font-primaria: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--font-primaria);
+}
+
