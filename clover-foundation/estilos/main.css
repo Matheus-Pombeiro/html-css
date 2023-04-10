@@ -18,14 +18,14 @@
     gap: 1rem;
 }
 
-.principal__secao__titulo-1 {
+.principal__titulo-1, .principal__secao__titulo-1 {
     color: var(--cor-destaque);
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
 }
 
-.principal__secao__img {
+.principal__img, .principal__secao__img {
     width: 100%;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.441);
@@ -49,4 +49,20 @@
     font-size: 1rem;
     text-align: justify;
     text-indent: 25px;
+}
+
+/* Tablets */
+
+@media screen and (min-width: 768px) {
+    .principal__img {
+        align-self: center;
+        width: fit-content;
+        object-fit: contain;
+    }
+}
+
+/* Desktops */
+
+@media screen and (min-width: 1280px) {
+
 }
