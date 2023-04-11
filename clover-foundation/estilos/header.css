@@ -39,11 +39,17 @@
     }
 
     .menu__item__desktop {
-        padding: 1rem 5rem;
-    }
+        padding: 1rem 6rem;
+        color: var(--cor-destaque);
+        border-radius: 10px;
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-decoration: none;
+    }   
 
-    .home {
-        background: url("../assets/favicon_io/favicon-32x32.png") no-repeat;
-        background-position: 2rem;
+    .menu__item__desktop:hover {
+        background-color: var(--cor-destaque);
+        color: white;
+        transition: .3s;
     }
 }
