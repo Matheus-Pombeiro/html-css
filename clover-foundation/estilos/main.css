@@ -63,7 +63,18 @@
 /* Desktop */
 
 @media screen and (min-width: 1280px) {
-    .principal__img, .principal__secao__img {
+    .principal {
+        display: block;
+        column-count: 2;
+        column-gap: 3rem;
+        column-rule: 3px var(--cor-destaque);
+    }     
+
+    .principal__titulo-1, .principal__img {
+        column-span: all;
+    }
+
+    .principal__secao__img {
         align-self: center;
         width: 20%;        
     }
