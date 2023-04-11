@@ -16,3 +16,8 @@
 .rodape__negrito {
     font-weight: 700;
 }
+
+.rodape__ancora {
+    text-decoration: underline;
+    color: var(--cor-destaque);
+}
