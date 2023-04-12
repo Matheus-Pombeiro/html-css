@@ -3,7 +3,7 @@
 .rodape {
     
     padding: 1rem;
-    background-color: white;
+    background-color: var(--background-header-footer);
 }
 
 .rodape__titulo {

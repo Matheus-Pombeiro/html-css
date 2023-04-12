@@ -6,7 +6,7 @@
     justify-content: space-between;
     gap: 1rem;
     padding: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.559);
+    background-color: var(--background-main);
 }
 
 .principal__secao, .principal__secao__container {
