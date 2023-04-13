@@ -26,9 +26,6 @@
 }
 
 body {
-    height: 100vh;
-    position: relative;
-    overflow: auto;
     background-color: var(--background);
     font-family: var(--font-primaria);
 }
