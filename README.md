@@ -5,7 +5,7 @@
 
  Confira os meus projetos pessoais:
 
-<a href="https://matheus-pombeiro.github.io/html-css/portfolio/index.html">Acesse o meu Portfólio</a>
+<a href="https://matheus-pombeiro.github.io/html-css/portfolio/index.html">Portfólio</a>
 
 <a href="https://matheus-pombeiro.github.io/html-css/clover-foundation/index.html">Fundação Clover</a>
 
