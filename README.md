@@ -11,7 +11,7 @@
 
 <hr>
 
-Projetos de estudos desenvolvidos por meio dos cursos de Front-end da Alura.
+Projetos de estudo desenvolvidos por meio dos cursos de Front-end da Alura.
 
 <a href="https://matheus-pombeiro.github.io/html-css/alura-play/index.html">Alura Play</a>
 
@@ -19,3 +19,4 @@ Projetos de estudos desenvolvidos por meio dos cursos de Front-end da Alura.
 
 <a href="https://matheus-pombeiro.github.io/html-css/alura-books/index.html">Alura Books</a>
 
+<a href="https://matheus-pombeiro.github.io/html-css/alura-cast/index.html">Alura Cast</a>
