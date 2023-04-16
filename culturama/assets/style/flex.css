@@ -18,6 +18,45 @@
     row-gap: .5rem;
 }
 
+/* Destaques */
+
+.destaques {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.destaques__barra {
+    flex-grow: 1;
+}
+
+/* Eventos */
+
+.eventos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    justify-content: center;
+}
+
+.eventos__item {
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+/* Agenda */
+
+.agenda__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 1.5rem;
+}
+
+.agenda__item {
+    flex-grow: 1;
+}
+
 @media screen and (min-width: 720px) {
     /* Cabeçalho */
 
@@ -31,6 +70,18 @@
         flex-wrap: wrap;
         column-gap: 1.5rem;
         row-gap: 1rem;
+    }
+
+    /* Eventos */
+
+    .eventos__lista {
+        justify-content: end;
+    }
+
+    /* Agenda */
+
+    .agenda__lista {
+        justify-content: end;
     }
 }
 
