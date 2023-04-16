@@ -100,3 +100,34 @@
         grid-area: 1/4/3/5;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    /* Categorias */
+
+    .categorias {
+        display: grid;
+        grid-template-columns: calc(50% - .75rem) auto auto;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+        "titulo titulo"
+        "lista destaques"
+        "lista imagem";
+        gap: 1rem 1.5rem;
+    }
+
+    .categorias .categorias__titulo {
+        grid-area: titulo;
+    }
+
+    .categorias .categorias__lista {
+        grid-area: lista;
+    }
+
+    .categorias .categorias__destaques {
+        grid-area: destaques;
+    }
+    
+    .categorias .categorias__imagem {
+        grid-area: imagem;
+    }
+}
