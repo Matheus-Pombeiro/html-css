@@ -1,10 +1,16 @@
+// Cores
+
 $cor-principal: #F0EB8D;
 $cor-secundaria: #8F43EE;
+
+// Função Básica do Site
 
 @mixin reset {
     margin: 0;
     padding: 0;
 }
+
+// Função Container
 
 @mixin cor-e-texto($cor-de-fundo, $cor-do-texto) {
     width: 50%;
@@ -30,6 +36,8 @@ body {
        @include cor-e-texto($cor-principal, $cor-secundaria);
     }
 
+    // Aqui as cores foram invertidas
+    
     .direito {
        @include cor-e-texto($cor-secundaria, $cor-principal);
     }
