@@ -17,4 +17,12 @@ nav ul li a {
 }
 nav ul li a:hover {
   border-bottom: 2px solid #D5B4B4;
+}
+
+.banner {
+  background-color: #D5B4B4;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
