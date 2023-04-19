@@ -1,8 +1,7 @@
-// Fontes
+// Imports Abstract
 
-$fonte-primaria: 'Roboto', Arial, Helvetica, sans-serif;
-$fonte-secundaria: 'Cinzel';
+@import '../estilos/abstract/base';
 
-html, body {
-    font-family: $fonte-primaria;
-}
+// Imports Components
+
+@import '../estilos/components/navbar';
