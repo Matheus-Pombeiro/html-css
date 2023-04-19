@@ -3,10 +3,22 @@
 @import '../abstract/variaveis';
 
 .banner {
-    background-color: $cor-terceira;
+    background-color: $cor-segunda;
     min-height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    .inner-banner {
+        padding: 3rem;
+        background-color: $cor-primeira;
+        border-radius: 45px;
+        h1 {
+            font-size: $tamanho-do-texto;
+            color: $cor-quarta;
+        }
+        h2 {
+            font-size: $tamanho-do-texto / 2;
+            color: $cor-terceira;
+        }
+    }
 }
