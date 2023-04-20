@@ -6,15 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olá Tailwind!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="">
+<body class="bg-gradient-to-r from-orange-400 to-blue-600">
 
-    <main class="">
-        <img class="" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
-        <h1 class="">Olá Tailwind CSS!</h1>
-        <img class="" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+    <main class="bg-white flex flex-col lg:flex-row justify-center items-center w-4/5 mx-auto my-40 p-12 shadow-2xl opacity-50">
+        <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+        <h1 class="text-4xl lg:text-6xl font-black text-center">Olá, Tailwind CSS!</h1>
+        <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
     </main>
+
+    <div class="bg-gradient-to-r from-purple-300 to-slate-200 flex flex-col justify-center items-center w-3/5 lg:w-2/5 mx-auto my-20 p-4 shadow-2xl opacity-80">
+        <p class="font-black text-sm">Matheus Pombeiro</p>
+        <p class="text-sm">Alura</p>
+    </div>
+
+    <!-- 
+        
+        IMPORTANTE: Consulte a documentação do Tailwind.CSS no site oficial para saber mais sobre as classes utilitárias do framework!
+
+        DEFINIÇÕES: 
+        
+        bg: background;
+        bg-gradient-to-r: background-gradient-to-right;
+
+        Cores-Tailwind:
+        from-orange-400 to-blue-600(do laranja p/ o azul)
+        No Tailwind.CSS os tons de cores variam do 50 até o 900, sendo que, quanto mais próximo do 50, mais claro será o tom, e quanto mais próximo do 900, mais escuro será o tom da cor; 
+        
+        flex: display(flex);    
+        flex-col: flex-direction(column)   
+        justify-center: justify-content(center)
+        items-center: align-items(center);  
+        
+        Tamanhos de Tela Padrão no Tailwind:
+        sm: @media screen and (min-width: 640px)
+        md: @media screen and (min-width: 768px)
+        lg: @media screen and (min-width: 1024px)
+        xl: @media screen and (min-width: 1280px)
+        2xl: @media screen and (min-width: 1536px);
+        
+        w-4/5: width(no Tailwind.CSS é comum a largura ser definida por fração);
+
+        mx-auto: margin-vertical(auto)
+        my-40: margin-horizontal(40 = 10rem) -. medida muito utilizada no Tailwind.CSS;
+
+        p-12: padding(12 = 3rem);
+
+        shadow-2xl: um dos modelos de box-shadow(existem outros modelos);
+
+        opacity-50: força do opacidade(quanto menor for o número, maior será a intensidade da opacidade do elemento);
+
+        text-4xl: tamanho do texto
+        lg:text-6xl: tamanho do texto p/ telas de no mínimo 1024px
+        font-black: bold(negrito)
+        text-center: text-align(center);
+
+        -->
 
 </body>
 
