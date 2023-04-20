@@ -1,0 +1,27 @@
+// Import Variáveis
+
+@import '../abstract/variaveis';
+
+// Code
+
+#pedra-flor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    margin: 2rem auto;
+    .pedra-flor__container__texto {
+        text-align: center;
+        line-height: 2rem;
+        h3 {
+            text-transform: uppercase;
+            color: $cor-quarta;
+            font-size: $tamanho-do-texto / 2.5;
+        }
+            h4 {
+                color: $cor-terceira;
+                font-size: $tamanho-do-texto / 3;
+            }
+    }
+}

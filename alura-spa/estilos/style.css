@@ -140,6 +140,28 @@ nav ul li a:hover {
   border-color: #F5EBEB;
 }
 
+#pedra-flor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  margin: 2rem auto;
+}
+#pedra-flor .pedra-flor__container__texto {
+  text-align: center;
+  line-height: 2rem;
+}
+#pedra-flor .pedra-flor__container__texto h3 {
+  text-transform: uppercase;
+  color: #867070;
+  font-size: 1.2rem;
+}
+#pedra-flor .pedra-flor__container__texto h4 {
+  color: #D5B4B4;
+  font-size: 1rem;
+}
+
 footer {
   text-align: center;
   font-size: 1.5rem;
