@@ -138,4 +138,16 @@ nav ul li a:hover {
   background-color: #867070;
   color: #D5B4B4;
   border-color: #F5EBEB;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #E4D0D0;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to right, #F5EBEB, #E4D0D0, #D5B4B4, #D5B4B4);
+}
+footer i {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
