@@ -22,3 +22,15 @@ Projetos de estudo desenvolvidos por meio dos cursos de Front-end da Alura.
 <a href="https://matheus-pombeiro.github.io/html-css/alura-cast/index.html">Alura Cast</a>
 
 <a href="https://matheus-pombeiro.github.io/html-css/culturama/index.html">Culturama</a>
+
+<hr>
+
+Projeto desenvolvido em SASS
+
+<a href="https://matheus-pombeiro.github.io/html-css/alura-spa/index.html">Alura Spa</a>
+
+<hr>
+
+Projeto desenvolvido em Tailwind
+
+<a href="https://matheus-pombeiro.github.io/html-css/alura-newsletter/index.html">Alura Newsletter</a>
