@@ -31,6 +31,8 @@ Projeto desenvolvido em SASS
 
 <hr>
 
-Projeto desenvolvido em Tailwind
+Projetos desenvolvidos em Tailwind
 
-<a href="https://matheus-pombeiro.github.io/html-css/alura-newsletter/index.html">Alura Newsletter</a>
+<a href="https://matheus-pombeiro.github.io/html-css/alura-newsletter/index.html">Start Tailwind</a>
+
+<a href="https://matheus-pombeiro.github.io/html-css/alura-newsletter/newsletter.html">Alura Newsletter</a>
