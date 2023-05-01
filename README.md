@@ -9,7 +9,7 @@
 
  <hr>
 
- Projetos de estudo desenvolvidos por meio dos cursos de Front-end da Alura.
+ Projetos de estudos desenvolvidos por meio dos cursos de Front-end da Alura.
 
  <a href="https://matheus-pombeiro.github.io/html-css/ex-1/index.html">Ex. #1</a>
 
@@ -27,7 +27,7 @@
  
  <hr>
 
- Projeto desenvolvido em SASS
+ Projetos desenvolvidos em SASS
 
  <a href="https://matheus-pombeiro.github.io/html-css/alura-spa/index.html">Alura Spa</a>
 
