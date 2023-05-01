@@ -29,9 +29,9 @@
 
  Projetos desenvolvidos em SASS
 
- <a href="https://matheus-pombeiro.github.io/html-css/alura-spa/index.html">Alura Spa</a>
+ <a href="https://matheus-pombeiro.github.io/html-css/sass/index.html">Ex. #1</a>
 
- <a href="https://matheus-pombeiro.github.io/html-css/sass/index.html">Alura Spa</a>
+ <a href="https://matheus-pombeiro.github.io/html-css/alura-spa/index.html">Alura Spa</a>
 
  <hr>
 
