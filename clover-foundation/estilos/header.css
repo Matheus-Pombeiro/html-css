@@ -2,15 +2,21 @@
 
 .menu__container__mobile {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     top: 0;
     background-color: var(--background-header-footer);
+    position: fixed;
 }
 
 .menu__item__mobile {
-    padding: 1rem 0;
+   padding: 1rem 1.3rem;
+}
+
+.menu__item__mobile:active {
+    background-color: var(--cor-destaque);
+    border-radius: 10px;
 }
 
 .menu__container__desktop, .menu__item__desktop {
@@ -36,6 +42,7 @@
         height: 4rem;
         top: 0;
         background-color: var(--background-header-footer);
+        position: fixed;
     }
 
     .menu__item__desktop {
