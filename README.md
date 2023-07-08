@@ -3,17 +3,11 @@
 
  Estou apredendo a criar sites e gerenciar meus repositórios.
 
- Confira os meus projetos pessoais:
-
- <a href="https://matheus-pombeiro.github.io/html-css/clover-foundation/index.html">Fundação Clover</a>
-
  <hr>
 
- Projetos de estudos desenvolvidos por meio dos cursos de Front-end da Alura.
+ Projetos de estudo desenvolvidos por meio dos cursos de Front-end da Alura.
 
- <a href="https://matheus-pombeiro.github.io/html-css/ex-1/index.html">Ex. #1</a>
-
- <a href="https://matheus-pombeiro.github.io/html-css/portfolio/index.html">Portfólio</a>
+ <a href="https://matheus-pombeiro.github.io/html-css/portfolio/index.html">Mini Portfólio</a>
 
  <a href="https://matheus-pombeiro.github.io/html-css/alura-play/index.html">Alura Play</a>
 
@@ -27,9 +21,7 @@
  
  <hr>
 
- Projetos desenvolvidos em SASS
-
- <a href="https://matheus-pombeiro.github.io/html-css/sass/index.html">Ex. #1</a>
+ Projeto desenvolvido em SCSS
 
  <a href="https://matheus-pombeiro.github.io/html-css/alura-spa/index.html">Alura Spa</a>
 
@@ -43,5 +35,4 @@
 
  <hr>
 
- Confira também o meu <a href="https://matheus-pombeiro.github.io/javascript">repositório</a> de JavaScript no Github.
-
+ Confira também o meu repositório de <a href="https://matheus-pombeiro.github.io/javascript">JavaScript</a> no Github.
