@@ -35,4 +35,4 @@
 
  <hr>
 
- Confira também o meu repositório de <a href="https://matheus-pombeiro.github.io/javascript">JavaScript</a> no Github.
+ Confira também os meus repositórios de <a href="https://matheus-pombeiro.github.io/javascript">JavaScript</a> e <a href="https://matheus-pombeiro.github.io/projetos-pessoais/">Projetos Pessoais</a> no Github.
