@@ -1,0 +1,11 @@
+/*Arquivo CSS para estilizações pontuais do projeto*/
+
+@charset "UTF-8";
+
+section {
+    padding: 10vh 0;
+}
+
+header h1 {
+    font-variant: small-caps;
+}
