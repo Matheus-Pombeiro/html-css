@@ -6,28 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cordel Moderno</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        fundoTransparente: 'rgb(0, 0, 0, 0.253)',
-                    },
-                }
-            }
-        }
-    </script>
 </head>
-<body class="min-h-screen">
+<body>
     <!--Cabeçalho de apresentação do site e créditos ao autor do cordel-->
-    <header class="bg-black p-12 text-white text-center">
+    <header>
         <h1>Cordel Moderno</h1>
-        <p>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline">Milton Duarte</a></p>
+        <p>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank" rel="noopener noreferrer">Milton Duarte</a></p>
     </header>
 
     <!--Sequência de sessões com as estrofes do cordel-->
-    <section class="bg-white leading-8 pl-7">   <!--Normal-->
+    <section class="normal">    <!--Normal-->
         <p>
             Estou ficando cansado <br>
             Da tal tecnologia <br>
@@ -39,8 +27,8 @@
         </p>
     </section>
 
-    <section class="bg-zinc-800 text-white leading-8 pl-7">   <!--Imagem-->
-        <p class="bg-fundoTransparente w-96">
+    <section class="imagem">   <!--Imagem-->
+        <p>
             Não é mais como era antes <br>
             É tudo abreviado <br>
             "Você" só tem duas letras <br>
@@ -51,7 +39,7 @@
         </p>
     </section>
 
-    <section class="bg-white leading-8 pl-7">   <!--Normal-->
+    <section class="normal">   <!--Normal-->
         <p>
             Arroba agora não pesa <br>
             É parte de um endereço <br>
@@ -73,8 +61,8 @@
         </p>
     </section>
 
-    <section class="bg-zinc-800 text-white leading-8 pl-7">   <!--Imagem-->
-        <p class="bg-fundoTransparente w-96">
+    <section class="imagem">   <!--Imagem-->
+        <p>
             Tenho saudade das cartas <br>
             Escritas com a própria mão <br>
             Mandava no mês de Junho <br>
@@ -85,7 +73,7 @@
         </p>
     </section>
 
-    <section class="bg-white leading-8 pl-7">   <!--Normal-->
+    <section class="normal">   <!--Normal-->
         <p>
             Agora, escrevo e envio <br>
             Chegando na mesma hora <br>
@@ -108,8 +96,8 @@
     </section>
 
 <!--Rodapé com os créditos ao autor e idealizador do site-->
-<footer class="p-2.5 bg-black text-white text-center">
-    <p>Site criado por <a href="https://gustavoguanabara.github.io" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline">Gustavo Guanabara</a> para o <a href="http://cursoemvideo.com" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline">Curso em Vídeo</a></p>
+<footer>
+    <p>Site criado por <a href="https://gustavoguanabara.github.io" target="_blank" rel="noopener noreferrer">Gustavo Guanabara</a> para o <a href="http://cursoemvideo.com" target="_blank" rel="noopener noreferrer">Curso em Vídeo</a></p>
 </footer>
 </body>
 </html>
